@@ -118,6 +118,7 @@ cd /projects/ciwars/5052/WRF-5052_Metagenomic_Sequences/GDS_Subset/ConcatFiles/f
 multiqc .
 ```
 </details>
+
 **Note:** Alternatively, after entering the environment where multiqc is installed, you can navigate to the directory that hosts the fastqc report files and rn "multiqc ." in your terminal. However, keep file size in mind when choosing between this option and a bash script.
 
 ## 2.4 Review MultiQC output
