@@ -38,7 +38,7 @@ fastqc: command not found
 If you see this message, retry the installation process.
 
 ## 1.3 Run your data through FastQC
-Use the following script (fastqcGDSsub.sh) to run fastqc on your raw sequence files.
+Use the following script (fastqcGDSsub.sh) to run fastqc on your raw sequence files. Here, FastQC v0.12.1 is used.
 <details>
   <summary>fastqcGDSsub.sh</summary>
 
@@ -101,7 +101,7 @@ source activate multiqc
 ```
 
 ## 2.3 Run MultiQC
-MultiQC's input is the fastqc reports in your previously created "fastqc_results" directory. MultiQC is programmed to understand the FastQC outputs, so there is no need to differentiate between file type (i.e., fastqc.html vs. fastqc.zip) with this tool. Use the following code to access those files and run them with multiqc.
+MultiQC's input is the fastqc reports in your previously created "fastqc_results" directory. MultiQC is programmed to understand the FastQC outputs, so there is no need to differentiate between file type (i.e., fastqc.html vs. fastqc.zip) with this tool. Use the following code to access those files and run them with multiqc. Here, MultiQC version 1.0.dev0 is used.
 <details>
   <summary>multiqcGDSsub.sh</summary>
 
